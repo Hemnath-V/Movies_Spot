@@ -50,11 +50,12 @@ Ready to dive in? Follow these steps to get Movie Spot up and running locally on
 
 ---
 
-### 📦 1. Clone the Repository
+```bash
+
+# 📦 1. Clone the Repository
 
 Use Git to clone the project to your local development environment:
 
-```bash
 git clone https://github.com/Hemnath-V/Movies_Spot.git
 cd Movies_Spot
 
