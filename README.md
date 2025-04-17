@@ -16,16 +16,12 @@ Check out the live version of the project here: [Movies Spot - Live Demo](https:
 - [🤸 Quick Start](#quick-start)
 - [🚨 Tutorial](#tutorial)
 - [💬 Stay Connected](#stay-connected)
-- [📈 Project Status](#project-status)
-- [🔗 Related Links](#related-links)
 
 ---
 
 ## 🤖 Introduction
 
-Welcome to **Movies Spot**! Built with **React.js** for the user interface, **Appwrite** for the movie recommendation algorithm, and styled with **TailwindCSS**, this project is perfect for beginners looking to learn **React.js** and work with APIs. 
-
-If you're just getting started or need assistance, join our **Discord community** with over **50k+ members** where people help each other out!
+Welcome to **Movies Spot**! Built with **React.js** for the user interface, **Appwrite** for the movie recommendation algorithm, and styled with **TailwindCSS**, this project is perfect for beginners looking to learn **React.js** and work with APIs.
 
 ---
 
@@ -67,3 +63,33 @@ Make sure you have the following installed on your machine:
 ```bash
 git clone https://github.com/Hemnath-V/Movies_Spot.git
 cd Movies_Spot
+
+---
+
+### 📦 Install Dependencies
+Install the necessary project dependencies using npm:
+
+bash
+Copy
+Edit
+npm install
+🧑‍💻 Set Up Environment Variables
+Create a new file named .env.local in the root of your project and add the following content:
+
+bash
+Copy
+Edit
+VITE_IMDB_API_KEY=YOUR_IMDB_API_KEY
+VITE_APPWRITE_PROJECT_ID=YOUR_APPWRITE_PROJECT_ID
+VITE_APPWRITE_DATABASE_ID=YOUR_APPWRITE_DATABASE_ID
+VITE_APPWRITE_COLLECTION_ID=YOUR_APPWRITE_COLLECTION_ID
+Replace the placeholders with your actual TheMovieDatabase API and Appwrite credentials. You can obtain these credentials by signing up on TheMovieDatabase and Appwrite.
+
+🏃‍♂️ Run the Project
+Start the development server:
+
+bash
+Copy
+Edit
+npm run dev
+Now, open your browser and go to http://localhost:5173 to view the project.
