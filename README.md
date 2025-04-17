@@ -58,37 +58,29 @@ Use Git to clone the project to your local development environment:
 git clone https://github.com/Hemnath-V/Movies_Spot.git
 cd Movies_Spot
 
-🛠 2. Install Dependencies
-Install all the required packages using npm:
+# 🛠 2. Install Dependencies
+npm install  # Install project dependencies
 
-npm install
+# 🧑‍💻 3. Set Up Environment Variables
+# Create and open the environment file
+touch .env.local  # (If not already created)
 
-🧑‍💻 3. Set Up Environment Variables
-Create a .env.local file in the root directory and add your credentials:
+# Add the following credentials inside .env.local
+# Replace the placeholder values with your actual credentials from TMDb and Appwrite
+VITE_IMDB_API_KEY=YOUR_IMDB_API_KEY               # Your TMDb API key
+VITE_APPWRITE_PROJECT_ID=YOUR_APPWRITE_PROJECT_ID # Appwrite project ID
+VITE_APPWRITE_DATABASE_ID=YOUR_APPWRITE_DATABASE_ID # Appwrite database ID
+VITE_APPWRITE_COLLECTION_ID=YOUR_APPWRITE_COLLECTION_ID # Appwrite collection ID
 
-VITE_IMDB_API_KEY=YOUR_IMDB_API_KEY
-VITE_APPWRITE_PROJECT_ID=YOUR_APPWRITE_PROJECT_ID
-VITE_APPWRITE_DATABASE_ID=YOUR_APPWRITE_DATABASE_ID
-VITE_APPWRITE_COLLECTION_ID=YOUR_APPWRITE_COLLECTION_ID
-Replace the placeholder values with your actual credentials from TMDb and Appwrite.
+# 🧪 4. Test Setup
+npm run lint  # Run linter to check code style
+# or
+npm test      # Run unit tests
 
-🧪 4. Test Setup
-(Optional) You can run a quick lint check or unit tests if configured:
+# 🚀 5. Start Development Server
+npm run dev  # Start the development server
 
-npm run lint
-or
-npm test
-
-🚀 5. Start Development Server
-Run the project locally:
-
-npm run dev
-Now open your browser and navigate to:
-
-http://localhost:5173
-
-🎉 You're all set! Start exploring and customizing your movie discovery platform!
-
-Let me know if you want this merged into your full README with emojis and sections!
+http://localhost:5173  # View your app in the browser
 
 
+Now, all the headings are included as part of the comments inside the code blocks. Let me know if you need further adjustments!
