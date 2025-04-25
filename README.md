@@ -82,6 +82,3 @@ npm test      # Run unit tests
 npm run dev  # Start the development server
 
 http://localhost:5173  # View your app in the browser
-
-
-Now, all the headings are included as part of the comments inside the code blocks. Let me know if you need further adjustments!
